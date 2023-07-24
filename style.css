@@ -1,0 +1,249 @@
+body{
+    background-color: rgb(242, 235, 235)
+}
+.body{
+    border: 10px solid rgba(0, 0, 0, 0.64);
+    height: 300px;
+    width: 300px;
+    background:rgb(204 200 199);
+    border-radius:2333px;
+    margin: auto;
+    position: relative;
+    box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+                inset 4px 4px 10px rgba(0,0,0,0.5),
+                inset -4px -4px 10px rgba(67,67,67,0.5),
+                4px 4px 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transform: rotate(90deg);
+}
+.body h3{
+    transform: rotate(270deg);
+    text-align: center;
+    position: absolute;
+    top: 129px;
+    left: 47px;
+    z-index: 0;
+    /* margin-top: 50px; */
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.679);
+
+}
+.time1{
+    /* border: 2px solid; */
+    width: 7px;
+    height: 300px;
+}
+.one{
+    margin: auto;
+}
+.two{
+    position: absolute;
+    top: 0px;
+    left:145px;
+    transform: rotate(30deg);
+}
+.three{
+    position: absolute;
+    top: 0px;
+    left:145px;
+    transform: rotate(60deg);
+}
+.four{
+    position: absolute;
+    top: 0px;
+    left:145px;
+    transform: rotate(90deg);
+}
+.five{
+    position: absolute;
+    top: 0px;
+    left:145px;
+    transform: rotate(300deg);
+}
+.six{
+    position: absolute;
+    top: 0px;
+    left:145px;
+    transform: rotate(330deg);
+}
+
+
+.no{
+    /* border: 2px solid; */
+    margin: auto;
+    background-color: black;
+    width: 23px;
+    height:1px;
+    border-radius: 33px;
+}
+.t1{
+    position: absolute;
+    top: 8%;
+    right:-7px;
+    transform: rotate(89deg);
+}
+.t2{
+    position: absolute;
+    top: 8%;
+    right:-7px;
+    transform: rotate(89deg);
+}
+.t3{
+    height: 2px;
+    background: #050836;
+    position: absolute;
+    top: 8%;
+    right: -7px;
+    transform: rotate(90deg);
+
+}
+.t4{
+    position: absolute;
+    bottom: 8%;
+    right:-7px;
+    transform: rotate(89deg);
+}
+.t5{
+    position: absolute;
+    bottom: 8%;
+    right:-7px;
+    transform: rotate(89deg);
+}
+.t6{
+    height: 2px;
+    background: #050836;
+    position: absolute;
+    bottom:8%;
+    right: 139px;
+    transform: rotate(90deg);
+}
+.t7{
+    position: absolute;
+    bottom: 8%;
+    left:-7px;
+    transform: rotate(89deg);
+}
+.t8{
+    position: absolute;
+    bottom: 8%;
+    left:-7px;
+    transform: rotate(89deg);
+}
+.t9{
+    height: 2px;
+    background: #050836;
+    position: absolute;
+    top: 89%;
+    left: -7px;
+    transform: rotate(90deg);
+}
+.t10{
+    position: absolute;
+    top: 8%;
+    left:-7px;
+    transform: rotate(89deg);
+}
+.t11{
+    position: absolute;
+    top: 8%;
+    left:-7px;
+    transform: rotate(89deg);
+}
+.t12{
+    height: 2px;
+    background: #050836;
+    position: absolute;
+    top: 8%;
+    left: 140px;
+    transform: rotate(90deg)
+}
+.mincont{
+    height: 10px;
+    width: 299px;
+    
+}
+.min1{
+    /* border: 2px solid red; */
+    
+    position: absolute;
+    top: 146px;
+    left: 0px;
+    transition: 10s all;
+    /* transform: rotate(90deg); */
+    animation: sec 60s steps(60 , end) infinite; 
+    
+}
+.min1 div{
+    background-color: #070a3a;
+    border-radius: 23px;
+    position: absolute;
+    left: 23px;
+    top: 5px;
+    height: 2px;
+    width: 151px;
+    z-index: -3;
+    box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+    inset 4px 4px 10px rgba(0,0,0,0.5),
+    inset -4px -4px 10px rgba(67,67,67,0.5),
+    4px 4px 10px rgba(0,0,0,0.3);
+}
+.min1 .round{
+    /* border: 2px solid rgb(13, 13, 13); */
+    background-color: #050836;
+    position: absolute; 
+    z-index:4;
+    left: 141px;
+    top: -2px;
+    height: 15px;
+    width: 15px;
+}
+.min2{
+    position: absolute;
+    top: 146px;
+    left: 0px;
+    /* transform: rotate(90deg); */
+    animation: sec 3600s steps(3600 , end) infinite;
+}
+.min2 div{
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius:23px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    height: 3px;
+    width: 150px;
+    z-index: -2;
+    box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+    inset 4px 4px 10px rgba(0,0,0,0.5),
+    inset -4px -4px 10px rgba(67,67,67,0.5),
+    4px 4px 10px rgba(0,0,0,0.3);
+}
+.min3{
+    position: absolute;
+    top: 146px;
+    left: 0px;
+    /* transform: rotate(60deg); */
+    animation: sec 43200s steps(43200, end) infinite;
+}
+.min3 div{
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius:23px;
+    position: absolute;
+    left: 41px;
+    top: 2px;
+    height: 6px;
+    width: 110px;
+    z-index: -1;
+    box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+    inset 4px 4px 10px rgba(0,0,0,0.5),
+    inset -4px -4px 10px rgba(67,67,67,0.5),
+    4px 4px 10px rgba(0,0,0,0.3);
+}
+@keyframes sec{
+    to{
+        transform: rotate(360deg);  
+    }
+}
+
