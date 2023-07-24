@@ -169,6 +169,7 @@ body{
     top: 146px;
     left: 0px;
     transition: 10s all;
+    z-index:1;
     /* transform: rotate(90deg); */
     animation: sec 60s steps(60 , end) infinite; 
     
